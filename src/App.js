@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Aquí va la imagen */}
+        {/* Aquí va la imagen hola */}
+        <h1>hola</h1>
+        
         <img
           src={trollFaceImage}
           className="troll-image" // Agregamos una clase para estilos CSS
