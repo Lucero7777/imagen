@@ -15,7 +15,7 @@ RUN npm install
 COPY . .
 
 # Genera la aplicación optimizada para producción
-RUN npm npm run build
+RUN npm run build
 
 # Etapa 2: Servir la aplicación con un servidor web estático
 FROM nginx:alpine
